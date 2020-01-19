@@ -1,6 +1,6 @@
 Name: txw2
 Version: 20110809
-Release: 7%{?dist}
+Release: 8%{?dist}
 Summary: Typed XML writer for Java
 Group: Development/Libraries
 License: CDDL and GPLv2 with exceptions
@@ -108,6 +108,9 @@ cp -rp target/site/apidocs/* %{buildroot}%{_javadocdir}/%{name}
 
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 20110809-8
+- Mass rebuild 2013-12-27
+
 * Fri Feb 22 2013 Juan Hernandez <juan.hernandez@redhat.com> - 20110809-7
 - Add build dependency on maven-shared (rhbz 914555)
 
